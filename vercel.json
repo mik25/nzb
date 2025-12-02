@@ -1,9 +1,9 @@
 {
   "version": 2,
   "builds": [
-    { "src": "fastindex.js", "use": "@vercel/node" }
+    { "src": "server.js", "use": "@vercel/node" }
   ],
   "routes": [
-    { "src": "/(.*)", "dest": "fastindex.js" }
+    { "src": "/(.*)", "dest": "server.js" }
   ]
 }
