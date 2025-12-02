@@ -1,0 +1,15 @@
+{
+  "name": "nzbio-stremio-addon",
+  "version": "2.0.0",
+  "description": "Stream movies and series directly from Usenet via NZB sources",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "keywords": ["stremio", "addon", "usenet", "nzb", "streaming"],
+  "author": "HelpYourself",
+  "license": "MIT",
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
