@@ -15,8 +15,8 @@ const CONFIG = {
   port: process.env.PORT || 3000,
   
   // NZB Hydra Settings
-  hydraUrl: process.env.HYDRA_URL || 'http://nzbhy.duckdns.org:31013',
-  hydraApiKey: process.env.HYDRA_API_KEY || '5CB1HJJFVNV31AQ23M089DP3BN',
+  hydraUrl: process.env.HYDRA_URL || 'http://147.219.59.219:5067',
+  hydraApiKey: process.env.HYDRA_API_KEY || 'VFVDQBURIDPSP393CLG4CBNH8D',
   
   // TMDB API Key
   tmdbApiKey: process.env.TMDB_API_KEY || '96ca5e1179f107ab7af156b0a3ae9ca5',
