@@ -15,8 +15,8 @@ const CONFIG = {
   port: process.env.PORT || 3000,
   
   // NZB Hydra Settings
-  hydraUrl: process.env.HYDRA_URL || 'http://147.219.59.219:5067',
-  hydraApiKey: process.env.HYDRA_API_KEY || 'VFVDQBURIDPSP393CLG4CBNH8D',
+  hydraUrl: process.env.HYDRA_URL || 'https://nzbhydra.schmantfred.de',
+  hydraApiKey: process.env.HYDRA_API_KEY || 'R0R3GNS5L5NO9BRJ0VIUCKQ9M7',
   
   // TMDB API Key
   tmdbApiKey: process.env.TMDB_API_KEY || '96ca5e1179f107ab7af156b0a3ae9ca5',
